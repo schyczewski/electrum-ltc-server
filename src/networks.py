@@ -12,13 +12,13 @@ params = {
         'genesis_hash': '000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943'
     },
     'sumcoin_main': {
-        'pubkey_address': 48,
+        'pubkey_address': 63,
         'script_address': 5,
-        'genesis_hash': '12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2'
+        'genesis_hash': '8f4af36aa0bdb9ae5a34d191bcbd80748569e4ef2e47587f0a3f5749dde17eea'
     },
     'sumcoin_test': {
-        'pubkey_address': 111,
+        'pubkey_address': 125,
         'script_address': 196,
-        'genesis_hash': 'f5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f'
+        'genesis_hash': 'e1309964e3ac20bd3bf8f7cdd9ccfc9b5a6a779b9975abc1c89c132db618048c'
     }
 }

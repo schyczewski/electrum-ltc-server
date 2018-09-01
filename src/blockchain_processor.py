@@ -244,7 +244,7 @@ class BlockchainProcessor(Processor):
 
     def read_chunk(self, index):
         with open(self.headers_filename, 'rb') as f:
-            f.seek(index*2016*80)
+            f.seek(index*2016*80) # does this 2016 represent a difficulty period?
             chunk = f.read(2016*80)
         return chunk.encode('hex')
 
