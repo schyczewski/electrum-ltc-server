@@ -1,30 +1,30 @@
 from setuptools import setup
 
 setup(
-    name="electrum-ltc-server",
+    name="electrum-sum-server",
     version="1.0",
-    scripts=['run_electrum_ltc_server.py','electrum-ltc-server'],
+    scripts=['run_electrum_sum_server.py','electrum-sum-server'],
     install_requires=['plyvel','jsonrpclib', 'irc >= 11, <=14.0'],
     package_dir={
-        'electrumltcserver':'src'
+        'electrumsumserver':'src'
         },
     py_modules=[
-        'electrumltcserver.__init__',
-        'electrumltcserver.utils',
-        'electrumltcserver.storage',
-        'electrumltcserver.deserialize',
-        'electrumltcserver.networks',
-        'electrumltcserver.blockchain_processor',
-        'electrumltcserver.server_processor',
-        'electrumltcserver.processor',
-        'electrumltcserver.version',
-        'electrumltcserver.ircthread',
-        'electrumltcserver.stratum_tcp'
+        'electrumsumserver.__init__',
+        'electrumsumserver.utils',
+        'electrumsumserver.storage',
+        'electrumsumserver.deserialize',
+        'electrumsumserver.networks',
+        'electrumsumserver.blockchain_processor',
+        'electrumsumserver.server_processor',
+        'electrumsumserver.processor',
+        'electrumsumserver.version',
+        'electrumsumserver.ircthread',
+        'electrumsumserver.stratum_tcp'
     ],
-    description="Litecoin Electrum Server",
+    description="Sumcoin Electrum Server",
     author="Thomas Voegtlin",
     author_email="thomasv@electrum.org",
     license="MIT Licence",
-    url="https://github.com/pooler/electrum-ltc-server/",
-    long_description="""Server for the Electrum Lightweight Litecoin Wallet"""
+    url="https://github.com/pooler/electrum-sum-server/",
+    long_description="""Server for the Electrum Lightweight Sumcoin Wallet"""
 )
